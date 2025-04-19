@@ -1,0 +1,173 @@
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/572/694/352/grass-background-lawn-green-wallpaper-preview.jpg");
+    display: flex;
+    overflow: hidden;
+    
+}
+.card-1{
+    background-color: rgb(157, 225, 248);
+    margin-top:25%;
+    width:245px;
+    height:265px;
+    text-align: center;
+    padding-top:7px;
+    padding-bottom:9px;
+    border-radius: 5px;
+    font-family: fantasy;
+    position: absolute;
+    margin-left:42% ;
+    transition: transform 0.5s ease;
+    border:3px solid rgb(219, 218, 218);
+}
+.card-2 {
+    background-color: rgb(8, 80, 214);
+    margin-top:25%;
+    width:245px;
+    height:265px;
+    text-align: center;
+    padding-top:7px;
+    padding-bottom:9px;
+    border-radius: 5px;
+    font-family: fantasy;
+    margin-left:42%;
+    position: absolute;
+    transition: transform 0.5s ease;
+    border:3px solid rgb(149, 7, 7);
+}
+.card-3 {
+    background-color: rgb(231, 243, 0);
+    margin-top:25%;
+    width:245px;
+    height:285px;
+    text-align: center;
+    padding-top:7px;
+    padding-bottom:9px;
+    border-radius: 5px;
+    font-family: fantasy;
+    position: absolute;
+    margin-left: 42%;
+    border:3px solid rgb(6, 133, 46);
+}
+.Soccer-cards:hover .card-2{
+    transform:translateX(-160px)  rotate(-35deg);
+}.Soccer-cards:hover .card-1{
+    transform:translateX(160px)  rotate(35deg);
+}
+
+img{
+    border-radius: 50%;
+    width: 110px;
+    height:120px;
+}
+.img-3{
+    border-radius: 50%;
+    margin-top:5%;
+    height:130px;
+}
+.jersey {
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+}
+.jersey-2 {
+    background-color: rgb(208, 16, 16);
+    border-radius: 2%;
+}
+.jersey-3 {
+    background-color: rgb(11, 210, 74);
+    border-radius: 2%;
+}
+.stats{
+    display: flex;
+}
+.Pac {
+    text-align: left;
+    font-family: monospace;
+    padding-left: 2%;
+    background-color: rgb(255, 255, 255);
+    margin-left:5px;
+    width:55px;
+    border-radius: 20px;
+    margin-top:5%;
+    border:1px solid black;
+}
+.Phy{
+    background-color: rgb(255, 255, 255) ;
+    font-family: monospace;
+    border-radius: 20px;
+    margin-left:30px;
+    width:55px;
+    margin-top:5%;
+    border:1px solid black;
+}
+.Pas {
+    background-color: rgb(255, 255, 255) ;
+    font-family: monospace;
+    border-radius: 20px;
+    width:55px;
+    margin-left:30px;
+    margin-top:5%;
+    border:1px solid black;
+}
+.Pac-2 {
+    text-align: left;
+    font-family: monospace;
+    padding-left: 2%;
+    background-color: rgb(208, 16, 16);
+    margin-left:5px;
+    width:55px;
+    border-radius: 20px;
+    margin-top:5%;
+    color: rgb(255, 255, 255) ;
+    border:1px solid black;
+}
+.Pas-2 {
+    background-color: rgb(208, 16, 16);
+    font-family: monospace;
+    border-radius: 20px;
+    width:55px;
+    margin-left:30px;
+    margin-top:5%;
+    color:  rgb(255, 255, 255) ;
+    border:1px solid black;
+
+}
+.C-2-name {
+    color:rgb(201, 196, 196);
+}
+.Pac-3 {
+    text-align: left;
+    font-family: monospace;
+    padding-left: 2%;
+    background-color: rgb(11, 210, 74);
+    margin-left:5px;
+    width:55px;
+    border-radius: 20px;
+    margin-top:6%;
+    border:1px solid black;
+}
+.Phy-3 {
+    background-color: rgb(11, 210, 74); ;
+    font-family: monospace;
+    border-radius: 20px;
+    margin-left:30px;
+    width:55px;
+    margin-top:6%;
+    border:1px solid black;
+}
+.Pas-3 {
+    background-color: rgb(11, 210, 74);;
+    font-family: monospace;
+    border-radius: 20px;
+    width:55px;
+    margin-left:30px;
+    margin-top:6%;
+    border:1px solid black;
+}
+.Soccer-title{
+    position: absolute;
+    margin-left:39%;
+    margin-top:50px;
+    color:white;
+    font-family:Arial, sans-serif;
+    font-size:30px;
+}
